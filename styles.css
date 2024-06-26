@@ -1,0 +1,15 @@
+header, footer{
+    background-color: #1F2937;
+    color: white;
+}
+a{
+    color: white;
+}
+.main{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.para{
+    font-size: 18px;
+    color: #E5E7EB;
+}
