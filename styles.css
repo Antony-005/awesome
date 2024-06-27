@@ -1,6 +1,11 @@
 header, footer{
     background-color: #1F2937;
     color: white;
+    margin: 0px;
+}
+body{
+    margin: 20px;
+    /* padding: 10px; */
 }
 a{
     color: white;
@@ -13,6 +18,8 @@ a{
 .para{
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    width: 1300px;
 }
 figcaption{
     font-size: 18px;
@@ -27,4 +34,55 @@ figcaption{
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    margin:50px 20px ;
+    padding: 30px;
+}
+.head{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 20px;
+    margin: 20px;
+}
+.awesome{
+    display: flex;
+}
+.images{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+img{
+    flex: 1;
+    object-fit: cover;
+    margin: 5;
+    justify-content: space-around;
+    width: 400px;
+    height: auto;
+}
+.one, .two, .three, .four{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sign{
+    background-color: rgb(5, 112, 199);
+    color: #E5E7EB;
+    margin: 10px 100px;
+}
+.almost{
+    display: flex;
+    gap: 30px;
+}
+.foot{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 18px;
+    background-color: rgb(20, 170, 216);
+    border-radius: 10px;
+    margin: 0px;
+    
 }
