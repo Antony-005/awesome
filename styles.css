@@ -8,8 +8,23 @@ a{
 .main{
     font-size: 48px;
     color: #F9FAF8;
+    font-style: bold;
 }
 .para{
     font-size: 18px;
     color: #E5E7EB;
+}
+figcaption{
+    font-size: 18px;
+    color: #1F2937;
+}
+.header2{
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
