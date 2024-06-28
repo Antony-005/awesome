@@ -2,11 +2,16 @@ header, footer{
     background-color: #1F2937;
     color: white;
     margin: 0px;
+    /* padding: 0px 300px; */
 }
 body{
-    margin: 20px;
+    margin: 0px;
     /* padding: 100px; */
 }
+/* .sec{
+    padding-left:300px ;
+    padding-right:300px ;
+} */
 a{
     color: white;
     list-style-type: none;
