@@ -4,14 +4,18 @@ header, footer{
     margin: 0px;
     /* padding: 0px 300px; */
 }
+header{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+}
 body{
     margin: 0px;
     /* padding: 100px; */
 }
-/* .sec{
-    padding-left:300px ;
-    padding-right:300px ;
-} */
+ .sec{
+   padding: 50px 100px 100px 100px;
+} 
 a{
     color: white;
     list-style-type: none;
@@ -26,7 +30,7 @@ a{
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    width: 1300px;
+    width: 1200px;
 }
 figcaption{
     font-size: 18px;
@@ -43,6 +47,12 @@ figcaption{
     font-style: italic;
     margin:50px 20px ;
     padding: 30px;
+}
+#logo{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: flex-start;
 }
 .head{
     display: flex;
@@ -63,18 +73,19 @@ figcaption{
     display: flex;
     justify-content: flex-start;
 }
-#first{
-    width: 100px;
-    height: auto;
-    flex: 1;
+.imag{
+    width: 30px;
+    height: 30px;
 }
 #btn{
     width: 100px;
+    color: white;
 }
 .images{
     display: flex;
     gap: 40px;
     justify-content: space-around;
+    
 }
 img{
     flex: 1;
@@ -83,11 +94,13 @@ img{
     justify-content: space-around;
     width: 400px;
     height: auto;
+    
 }
 .one, .two, .three, .four{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
 .sign{
     background-color: rgb(5, 112, 199);
